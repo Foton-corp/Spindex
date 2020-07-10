@@ -2735,6 +2735,9 @@ header > h5 {
 .academy p:nth-child(3) {
     margin: 10px 0;
 }
+.cstm-vh-resp {
+    min-height: calc(100vh - (55px + 162px)) !important;
+}
 
 /*
 * author monograph
@@ -3691,8 +3694,8 @@ button.award {
 * error 404
 */
 .error {
-    /* height: 65.2vh; */
-    padding: 22px 0;
+    min-height: calc(100vh - (55px + 162px)) !important;
+    /* padding: 40px 0; */
 }
 .error__heading {
     font-weight: bold;
@@ -3715,6 +3718,15 @@ button.award {
     padding: 6px 11.89px 7px 10.11px;
     background-color: #218AD7;
     border-radius: 5px;
+}
+
+
+
+/*
+* enter page
+*/
+.content {
+    min-height: calc(100vh - (55px + 162px)) !important;
 }
 
 
