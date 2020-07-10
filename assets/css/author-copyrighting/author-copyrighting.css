@@ -1,0 +1,113 @@
+.content {
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-block {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 70%;
+    padding: 15px 0;
+    margin: 15px 0;
+    min-width: 310px;
+}
+
+.title-block {
+    width: 80%;
+    padding: 4% 0;
+    min-width: 300px;
+}
+
+.title-block-links > a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #223594;
+    text-decoration: none;
+}
+
+.title-block > h4 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #131B40;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-wrapper > h4 {
+    font-size: 18px;
+    line-height: 120%;
+    color: #131B40;
+    width: 90%;
+}
+
+.content-wrapper > h6 {
+    font-size: 14px;
+    line-height: 19px;
+    color: #808080;
+    width: 90%;
+}
+
+.address {
+    width: 90%;
+    padding: 30px 0 50px;
+}
+
+.address > a {
+    font-size: 18px;
+    line-height: 25px;
+    color: #223594;
+    text-decoration: none;
+}
+
+.date-block {
+    display: flex;
+    width: 90%;
+}
+
+.date-block > div:first-child {
+    width: 40%;
+}
+
+.date-block > div:last-child {
+    width: 60%;
+}
+
+.date-block > div > p:first-child {
+    font-size: 14px;
+    line-height: 19px;
+    color: #131B40;
+}
+
+.date-block > div > p:last-child {
+    font-size: 14px;
+    line-height: 19px;
+    color: #6C6B6B;
+}
+
+.pagination {
+    display: flex;
+    width: 10%;
+    justify-content: space-around;
+    margin: 15px 0;
+    min-width: 100px;
+}
+
+.pagination > .active {
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    border-bottom: 2px solid;
+}
+
+.pagination > h6 {
+    font-size: 18px;
+    line-height: 21px;
+    color: #C4C4C4;
+}

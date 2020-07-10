@@ -1,0 +1,209 @@
+@font-face {
+    font-family: ManropeBold;
+    src: url("../../../assets/fonts/Manrope-Bold.otf")
+}
+
+@font-face {
+    font-family: ManropeExtraBold;
+    src: url("../../../assets/fonts/Manrope-ExtraBold.otf")
+}
+
+@font-face {
+    font-family: ManropeExtraLight;
+    src: url("../../../assets/fonts/Manrope-ExtraLight.otf")
+}
+
+@font-face {
+    font-family: ManropeLight;
+    src: url("../../../assets/fonts/Manrope-Light.otf")
+}
+
+@font-face {
+    font-family: Manrope;
+    src: url("../../../assets/fonts/Manrope-Medium.otf")
+}
+
+@font-face {
+    font-family: ManropeRegular;
+    src: url("../../../assets/fonts/Manrope-Regular.otf")
+}
+
+@font-face {
+    font-family: ManropeSemiBold;
+    src: url("../../../assets/fonts/Manrope-SemiBold.otf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+}
+
+main {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+.menu-list {
+    display: flex;
+    height: 100%;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navigation-bar {
+    height: 7vh;
+    background: #131B40;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-list > li > a {
+    color: #fff;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration: none;
+}
+
+.menu-list > li > label > input {
+    background: #FFF;
+    border-radius: 3px;
+    padding: 4px;
+    height: 82%;
+}
+
+.menu-list > li > button {
+    background: #218AD7;
+    border-radius: 5px;
+    color: #F5F5F5;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    border: none;
+    padding: 2px 5px;
+}
+
+input::after {
+    background-image: url("../../img/icons/search-icon.png");
+}
+
+.menu-list > li > label > input::placeholder {
+    color: #6B6B6B;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+footer {
+    height: 16vh;
+    background: #131B40;
+    display: flex;
+}
+
+footer > .info-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer > section > ul > li > a, footer > section > div > p {
+    font-size: 14px;
+    line-height: 19px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+footer > section {
+    width: 50%;
+}
+
+footer > .info-section > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer > .info-section:last-child {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+footer > .info-section:last-child > li {
+    margin-left: 25%;
+}
+
+footer > section:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    width: 40%;
+    text-align: end;
+    min-width: 250px;
+    margin-right: 5%;
+}
+
+.arrow-down {
+    margin: 5px 0 5px 12px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px solid #C4C4C4;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    content: "";
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile > h4 {
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-right: 4px;
+}
+
+.navbar-nav > li > a {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.navbar-nav > li > button {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #F5F5F5 !important;
+}
+
+
+.footer-content > ul > li > a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #F5F5F5;
+}
+
+footer {
+    height: auto;
+}
+
+.navbar-brand {
+    margin-left: 2.25rem;
+    margin-right: 2.2rem;
+}
+
+

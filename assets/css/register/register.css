@@ -1,0 +1,76 @@
+.content {
+    background-image: url("../../img/registration/bg.png");
+    height: 77vh;
+    background-size: 100% 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 300px;
+}
+
+.content > form > h4 {
+    width: 96%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F5F5F5;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+.content > form > label, .content > form > label > input {
+    width: 100%;
+    border: none;
+}
+
+.content > form > label > input {
+    background: #F5F5F5;
+    border-radius: 3px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6B6B6B;
+    height: 37px;
+    padding-left: 5px;
+}
+
+.content > form > label > input:focus {
+    outline: none;
+}
+
+.content > form > label {
+    margin-bottom: 12px;
+}
+
+.content > form > button {
+    background: #218AD7;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 5px 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F5F5F5;
+    height: 38px;
+}
+.content > form > a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+
+.header-sect {
+    padding-left: 68px;
+    background-color: #131B40;
+    padding-right: 68px;
+}

@@ -1,0 +1,71 @@
+.content {
+    background-image: url("../../img/registration/bg.png");
+    height: 77vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    min-width: 300px;
+    min-height: 250px;
+    justify-content: space-evenly;
+}
+
+.content > form > h4 {
+    font-size: 24px;
+    line-height: 33px;
+    color: #F5F5F5;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.content > form > label, .content > form > label > input {
+    width: 100%;
+    border: none;
+}
+
+.content > form > label > input {
+    background: #F5F5F5;
+    border-radius: 3px;
+}
+
+.content > form button {
+    background: #218AD7;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+    padding: 5px 0;
+    font-size: 18px;
+    line-height: 25px;
+    color: #F5F5F5;
+}
+.content > form  a {
+    font-size: 14px;
+    line-height: 19px;
+    color: #F5F5F5;
+    text-decoration: none;
+}
+
+.action-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.action-wrapper > button {
+    width: 40%
+}
+
+.action-wrapper > div {
+    width: 60%;
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+}
+
